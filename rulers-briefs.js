@@ -64,8 +64,8 @@ MongoClient.connect('mongodb://localhost:27017/rulers_briefs',
               title: briefing_data.title,
               text: briefing_json,
               sr: 'ukgovbriefs',
-              //kind: 'self',
-              kind: 'text', //intentional bug to test stuff without posting
+              kind: 'self',
+              //kind: 'text', //intentional bug to test stuff without posting
               api_type: 'json'
             }).then( function (response) {
               if(response && response.json && response.json.errors &&
