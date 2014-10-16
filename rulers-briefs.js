@@ -16,7 +16,6 @@ if(args.u == undefined || args.p == undefined || args.k == undefined ||
                 "(user, password, key & secret)");
   process.exit(1);
 }
-console.dir(args);
 var reddit = new Snoocore( {
   userAgent: 'rulers-breifs-bot v0.1 by super_jambo',
   throttle: 2000,
