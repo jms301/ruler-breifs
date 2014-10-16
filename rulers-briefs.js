@@ -16,6 +16,11 @@ if(args.u == undefined || args.p == undefined || args.k == undefined ||
                 "(user, password, key & secret)");
   process.exit(1);
 }
+// kill the process after 5 minutes.
+setTimeout( function() {
+  process.exit(0);
+}, 300000);
+
 var reddit = new Snoocore( {
   userAgent: 'rulers-breifs-bot v0.1 by super_jambo',
   throttle: 2000,
