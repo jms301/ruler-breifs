@@ -1,0 +1,30 @@
+{
+  "name": "ruler-breifs",
+  "version": "0.0.1",
+  "description": "Bot to post uk parliament briefing data to reddit. ",
+  "main": "rulers-briefs.js",
+  "dependencies": {
+    "JSONStream": "~0.9.0",
+    "event-stream": "~3.1.7",
+    "minimist": "~1.1.0",
+    "mongodb": "~1.4.19",
+    "request": "~2.45.0",
+    "snoocore": "~1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jms301/ruler-breifs.git"
+  },
+  "keywords": [
+    "reddit"
+  ],
+  "author": "James Southern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jms301/ruler-breifs/issues"
+  }
+}
